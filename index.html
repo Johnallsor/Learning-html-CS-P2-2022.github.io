@@ -24,9 +24,28 @@
         <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
         <!-- Already specified in the charset above-->
 
+
         <style>
-            div {border: thin dotted red;}
-            div {border: thin dotted rgb(15, 252, 228)}
+            *{
+           box-sizing:border-box;
+           font-size:vw3    
+            }
+            div {border: thin dotted red}
+            .header {
+                border: 2px solid blue;
+                padding: 21px;
+                font-size: 3vw;
+            }
+            .menu {
+                border: 3px solid yellow;
+                padding: 13px;
+                font-size: 4vw
+            }
+
+            
+
+
+
         </style>
 
         <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your Feature to execute scripts is turned off</noscript>
@@ -34,11 +53,11 @@
     </head>
     
     <body>
-        <header><div><h1 style="font-size:5.5vw" {text-align: center;}> Learning HTML</h1></div></header>
-            <header style="font-size:3vw"> navigation</header>
+        <header><div><h1 style="font-size:5.5vw" {text-align: center;} class="header"> Learning HTML</h1></div></header>
+          <header style="font-size:3vw" class="menu"> navigation to pages</header>
            <div><nav>
             <section>
-                <header style="font-size:2vw"> Various Pages</header>
+                <menu style="font-size:2vw"> Various Pages</menu>
                 <ul style="list-style-type:square; font-size:0.75vw">
                     <li> Meta Data Example: <a href="childpages/Meta Data Example.html" target="_blank">Open this in ATOM to see meta data changes :)</a>
                     <li> Footer Blockquote Example: <a href="childpages/Footer Blockquote Example.html" target="_blank">click here</a>
