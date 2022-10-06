@@ -41,7 +41,11 @@
                 padding: 13px;
                 font-size: 4vw
             }
-
+            .nav {
+                border: 2px solid violet;
+                padding: 16px;
+                font-size: 5vw;
+            }
             
 
 
@@ -53,11 +57,11 @@
     </head>
     
     <body>
-        <header><div><h1 style="font-size:5.5vw" {text-align: center;} class="header"> Learning HTML</h1></div></header>
-          <header style="font-size:3vw" class="menu"> navigation to pages</header>
-           <div><nav>
+        <header><h1 style="font-size:5.5vw" {text-align: center;} class="header"> Learning HTML</h1></header>
+          <menu style="font-size:3vw" class="menu"> navigation to pages</menu>
+           <nav>
             <section>
-                <menu style="font-size:2vw"> Various Pages</menu>
+                <nav style="font-size:2vw" class="nav"> Various Pages
                 <ul style="list-style-type:square; font-size:0.75vw">
                     <li> Meta Data Example: <a href="childpages/Meta Data Example.html" target="_blank">Open this in ATOM to see meta data changes :)</a>
                     <li> Footer Blockquote Example: <a href="childpages/Footer Blockquote Example.html" target="_blank">click here</a>
@@ -66,10 +70,10 @@
                     <li> Subscript and Superscript Tags: <a href="childpages/Subscript and Superscript Tags.html" target="_blank">click here</a>
                     <li> Image Lesson: <a href="childpages/Image Lesson.html" target="_blank">click here</a>
                     <li> Laying out DIVs (using HTML Boilerplate): <a href="childpages/Laying out DIVs.html" target="_blank">click here</a>
-                    <li> What this index page might look like with Flexbox: <a href="childpages/Flexbox.html" target="_blank">click here</a>
-                </ul>
+                    <li> Flexbox: <a href="childpages/Flexbox.html" target="_blank">click here</a>
+                    </nav></ul>
             </section>
-         </div></nav>
+         </nav>
         <aside></aside>
         <main></main>
         <section></section>
@@ -77,18 +81,9 @@
         <footer></footer>
     </body>
 
-   <div><footer>
+   <footer>
         <blockquote cite="https://www.brainyquote.com/quotes/mitch_kapor_163583">
             <!-- Date Accessed 20220919 -->
         </blockquote>
-        <p>
-            <strong>
-                "Getting information off the Internet is like taking a drink from a firehose."
-            </strong>
-            <em>- <a href="https://www.brainyquote.com/quotes/mitch_kapor_163583" target="_blank">
-                Mitch Kapor</a>
-            </em>
-        </p>
-        <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
-    </div></footer>
+    </footer>
 </html>
